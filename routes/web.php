@@ -14,8 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mepage');
 });
+
+Route::get('/Stag', function () {
+    echo  "Welcome! My name is: Ismail Adam. This is the Staging Environment";
+});
+
+Route::get('/Prod', function () {
+   echo  "Welcome! My name is: Ismail Adam. This is the Production Environment";
+});
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
