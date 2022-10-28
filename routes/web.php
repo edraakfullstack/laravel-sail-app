@@ -21,7 +21,7 @@ Route::get('/', function () {
     return view('Stag');
 });
 
-Route::get('/', function (Prod) {
+Route::get('/Prod', function () {
     return view('mepage');
 });
 
