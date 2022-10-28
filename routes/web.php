@@ -17,6 +17,15 @@ Route::get('/', function () {
     return view('mepage');
 });
 
+Route::get('/', function () {
+    return view('Stag');
+});
+
+Route::get('/', function () {
+    return view('Prod');
+});
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
