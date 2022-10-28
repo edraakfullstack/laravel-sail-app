@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function ('Stag') {
+Route::get('/', function () {
     return view('mepage');
 });
 
