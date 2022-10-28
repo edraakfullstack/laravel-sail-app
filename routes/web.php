@@ -21,8 +21,8 @@ Route::get('/', function () {
     return view('Stag');
 });
 
-Route::get('/', function () {
-    return view('Prod');
+Route::get('/', function (Prod) {
+    return view('mepage');
 });
 
 
