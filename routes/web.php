@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('mepage');
 });
 
-Route::get('/', function () {
+Route::get('/Stag', function () {
     return view('Stag');
 });
 
